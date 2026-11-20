@@ -4,5 +4,5 @@ terraform {
 
 resource "local_file" "example" {
   filename = "message.txt"
-  content  = "Hello from Main Branch"
+  content  = "Hello from feature Branch"
 }
